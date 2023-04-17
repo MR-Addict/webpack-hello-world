@@ -21,3 +21,7 @@ Build:
 ```sh
 npm run build
 ```
+
+## 3. Links
+
+- [https://mr-addict.github.io/webpack-hello-world/](https://mr-addict.github.io/webpack-hello-world/)
