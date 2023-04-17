@@ -1,0 +1,65 @@
+/* main */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+/* header */
+.header div {
+  text-align: center;
+}
+
+.header img {
+  width: 12rem;
+  border-radius: 50%;
+  box-shadow: 0 0 15px #c29360;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.header img:hover {
+  scale: 1.01;
+}
+
+.header h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.header p {
+  font-size: 1rem;
+}
+
+/* webpack */
+.webpack {
+  border: solid 1px white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 15px #60c0c2;
+
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.webpack div ul {
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.webpack div ul li {
+  transition: 300ms;
+  cursor: pointer;
+  margin-block: 0.3rem;
+}
+
+.webpack div ul li:hover {
+  scale: 1.01;
+  color: #60c0c2;
+}
